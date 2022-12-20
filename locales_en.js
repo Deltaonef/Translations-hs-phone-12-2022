@@ -376,8 +376,8 @@ Locales["en"] = {
        "amount_liked": "{0} tykättyä ", // {0} is the amount
        "songs": "musiikkia", // 0 songs and more than 1 songs
        "song": "musiikki", // 1 song
-       "song_results_title": "Musiikkia",
-       "video_results_title": "Videota",
+       "song_results_title": "Musiikit",
+       "video_results_title": "Videot",
        "no_liked_description": "Sinun tykkäämät musiikit lisätään tähän",
        "next_up": "Seuraavaksi",
        "create_playlist": "Luo soittolista",
