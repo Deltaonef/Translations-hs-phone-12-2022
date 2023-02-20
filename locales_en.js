@@ -54,6 +54,7 @@ Locales["en"] = {
    "calling": "Soitetaan..",
    "connecting": "Yhdistetään..",
    "user_unavailable": "Käyttäjä ei tavoiteltavissa",
+   "no_units": "Ei vapaata linjaa.",
    "user_busy": "Henkilö kiireinen",
    "callended": "Puhelu lopetettu",
    "cancelled": "Peruutettu",
