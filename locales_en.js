@@ -287,7 +287,7 @@ Locales["en"] = {
     "clearall": `Tyhjennä kaikki`,
     // Outdated phone version
     "outdated_title": "Uusi version <i><strong>highOS</strong></i> käyttöjärjestelmästä on saatavilla!",
-    "outdated_description": "Ota yhteyttä Saloseen sen päivitystä varten!",
+    "outdated_description": "Ota yhteyttä Pukkiin sen päivitystä varten!",
     // Twitter
     "twitter_title": "Twitter",
     "twitter_settings_title": "Asetukset",
