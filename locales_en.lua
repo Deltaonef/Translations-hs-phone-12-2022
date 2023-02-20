@@ -156,9 +156,9 @@ Config.Languages["en"] = {
  
         ["fields"] = {
  
-            {["name"] = "User data", ["value"] = "Owner: `{userIdentifier}`\nEmail: `{userEmail}`\nNickname: `{userNickname}`"},
+            {["name"] = "Käyttäjän data", ["value"] = "Owner: `{userIdentifier}`\nSposti: `{userEmail}`\nKäyttäjänimi: `{userNickname}`"},
  
-            {["name"] = "Reporter data", ["value"] = "Identifier: `{reporterIdentifier}`\nEmail: `{reporterEmail}`\nNickname: `{reporterNickname}`\nID: `{reporterId}`"}
+            {["name"] = "Reporttaajan data", ["value"] = "Identifier: `{reporterIdentifier}`\nSposti: `{reporterEmail}`\nKäyttäjänimi: `{reporterNickname}`\nID: `{reporterId}`"}
  
         },
  
@@ -180,9 +180,9 @@ Config.Languages["en"] = {
  
         ["fields"] = {
  
-            {["name"] = "Spostin data", ["value"] = "To: `{recipients}`\nSubject: `{subject}`\nContent: `{content}`"},
+            {["name"] = "Spostin data", ["value"] = "Henkilölle: `{recipients}`\nSubject: `{subject}`\nSisältö: `{content}`"},
  
-            {["name"] = "Lähettäjän data", ["value"] = "Identifier: `{senderIdentifier}`\nEmail: `{senderMailAddress}`\nName: `{senderName}`\nID: `{senderId}`"}
+            {["name"] = "Lähettäjän data", ["value"] = "Identifier: `{senderIdentifier}`\nSposti: `{senderMailAddress}`\nNimi: `{senderName}`\nID: `{senderId}`"}
  
         },
  
@@ -234,7 +234,7 @@ Config.Languages["en"] = {
  
         ["fields"] = {
  
-            {["name"] = "Siirron data", ["value"] = "Amount: `{amount} €`\nReason: `{reason}`"},
+            {["name"] = "Siirron data", ["value"] = "Summa: `{amount} €`\nReason: `{reason}`"},
  
             {["name"] = "Lähettäjän data", ["value"] = "Identifier: `{senderIdentifier}`\nName: `{senderName}`\nID: `{senderId}`"},
  
