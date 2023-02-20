@@ -1,9 +1,9 @@
 Config.Languages["en"] = {
- 
+
     ["notifications"] = {
- 
+
         -- Bank
- 
+
         ["selftransfer"] = "Et voi siirtää rahaa itsellesi!",
  
         ["selfrequest"] = "Et voi pyytää rahaa itseltäsi!",
@@ -25,17 +25,9 @@ Config.Languages["en"] = {
         ["playernotonline"] = "Tolla ID:llä ei ole ketään!",
  
         ["playernotonlineanymore"] = "Henkilö läksi muihin maihin!",
- 
-        -- Phone
- 
-        ["userbusy"] = "Henkilö on kiireinen!",
- 
-        ["usernotavailable"] = "Henkilö ei tavoiteltavissa!",
- 
-        ["noavailableunits"] = "Ei ketään vapaana vastaamaan puheluun!",
- 
+        
         -- Twitter/mail
- 
+
         ["accountdoesntexist"] = "Kyseisellä sähköpostilla ei ole tiliä!",
  
         ["emailtaken"] = "Kyseinen sähköposti on jo varattu!",
@@ -51,9 +43,9 @@ Config.Languages["en"] = {
         ["wrongresetcode"] = "Väärä koodi!",
  
         ["accountbanned"] = "Tilillä on porttikielto twitteriin!",
- 
+
         -- Dark chat
- 
+
         ["invitealreadyexists"] = "Kutsu on jo käytetty!",
  
         ["invitetooshort"] = "Kutsu on liian lyhyt!",
@@ -73,11 +65,10 @@ Config.Languages["en"] = {
         ["member_banned"] = "<strong>{memberName}</strong> sai vasarasta ryhmään",
  
         ["member_kicked"] = "<strong>{memberName}</strong> sai kenkään ryhmästä",
- 
     },
- 
+
     -- Main
- 
+
     ["open_phone"] = "Avaa puhelin",
  
     ["deleted_user"] = "Poistettu käyttäjä",
@@ -85,19 +76,18 @@ Config.Languages["en"] = {
     ["unknown"] = "Tuntematon",
  
     ["unknown_caller"] = "Tuntematon soittaja",
- 
+
     -- Ads
- 
+
     ["ads_notitle"] = "(Ei aihetta)",
- 
+
     -- Twitter
- 
     ["twitter_replyingto"] = "Vastataan : @{tweeterName}",
- 
+
     ["twitter_notitle"] = "(Ei aihetta)",
- 
+
     -- Webhooks, the whole table is sent through the webhook, which means you can add/remove anything you want into the webhooks (basically open sourced embeds).
- 
+    
     ["newtweetwebhook"] = {
  
         ["title"] = "📢 Uusi twiitti!",
@@ -127,7 +117,7 @@ Config.Languages["en"] = {
         }
  
     },
- 
+
     ["tweetreportwebhook"] = {
  
         ["title"] = "🚩 Twiitti reportattu!",
@@ -159,7 +149,7 @@ Config.Languages["en"] = {
         }
  
     },
- 
+
     ["userreportwebhook"] = {
  
         ["title"] = "🚩 Twitter käyttäjä reportattu!",
@@ -183,7 +173,7 @@ Config.Languages["en"] = {
         }
  
     },
- 
+
     ["newmailwebhook"] = {
  
         ["title"] = "📧 Uusi sähköposti!",
@@ -207,7 +197,7 @@ Config.Languages["en"] = {
         }
  
     },
- 
+
     ["newadwebhook"] = {
  
         ["title"] = "📢 Uusi mainos!",
@@ -237,7 +227,7 @@ Config.Languages["en"] = {
         }
  
     },
- 
+
     ["newtransactionwebhook"] = {
  
         ["title"] = "💸 Uusi tilisiirto!",
@@ -263,7 +253,7 @@ Config.Languages["en"] = {
         }
  
     },
- 
+
     -- Other
  
     ["twitterresetmail"] = {
