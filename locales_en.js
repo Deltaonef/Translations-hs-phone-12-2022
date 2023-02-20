@@ -58,14 +58,13 @@ Locales["en"] = {
    "callended": "Puhelu lopetettu",
    "cancelled": "Peruutettu",
    "privatenumber": "Yksityinen numero",
-   "missed_call": "Vastaamaton puhelu <strong>{0}</strong>", // {0} is the caller number/name
-   // Message app
+    // Message app
    "member_you": "(Sinä)",
    "person": "Henkilö",
    "people": "Henkilöt",
    "member": "Jäsen",
    "members": "Jäsenet",
-   "location": "🗺️ PP Kartta",
+   "location": "🗺️ Kartta",
    "attachment": "Liite #{0}", // {0} is the attachment ID
    "image": "Kuva #{0}", // {0} is the attachment (image) ID
    "attached_image": "(Liitetty kuva)",
@@ -74,7 +73,7 @@ Locales["en"] = {
    "new_group_message": "<strong>{0}</strong> ryhmässä <strong>{1}</strong>:<br>{2}", // {0} is the sender name/number, {1} is the group name, {2} is the content
    // Bank app
    "iban": "IBAN: {0}", // {0} is player bank account number
-   "cardname": "PP Pankki",
+   "cardname": "Pankki",
    "cardexpiry": "VOIMASSA",
    "invoicedescription": "Summa: <strong>{0} €</strong>", // {0} is the invoice amount
    "requestdescription": "Pyydetty henkilöltä <strong>{0} [{1}]</strong><br>Syy: <strong>{2}</strong>", // {0} is player name, {1} is player ID, {2} is purpose (reason)
@@ -93,24 +92,29 @@ Locales["en"] = {
    "mail_me": "Minä",
    "replying_mail": "Re: {0}", // {0} is the subject
    "mail_to": "To: {0}", // {0} are the recipients
-   // Context menu
-   "online": "Paikalla",
-   "offline": "Ei paikalla",
-   "invisible": "Näkymätön",
-   "save_song": "Tallenna soittolistaan",
-   "remove_song": "Poista soittolistasta",
-   "delete_playlist": "Poista soittolista",
-   "edit_playlist": "Muokkaa soittolistaa",
-   "edit": "Muokkaa",
-   "report": "Ilmianna",
-   "delete": "Poista",
-   "copy_message": "Kopioi viesti",
-   "manage_group": "Hallinoi ryhmää",
-   "copy": "Kopioi",
-   "reply": "Vastaa",
-   "addcontact": "Lisää yhteystieto",
-   "call": "Soita",
-   "openchat": "Avaa keskustelu",
+    // Context menu
+    "online": "Paikalla",
+    "offline": "Ei paikalla",
+    "invisible": "Näkymätön",
+    "copy_song": "Kopioi biisin linkki",
+    "save_song": "Tallenna soittolistaan",
+    "remove_song": "Poista soittolistasta",
+    "delete_playlist": "Poista soittolista",
+    "edit_playlist": "Muokkaa soittolistaa",
+    "edit": "Muokkaa",
+    "report": "Ilmianna",
+    "delete": "Poista",
+    "copy_message": "Kopioi viesti",
+    "copy_link": "Kopioi linkki",
+    "manage_group": "Hallinoi ryhmää",
+    "copy": "Kopioi",
+    "reply": "Vastaa",
+    "viewcontact": "Näytä yhteystieto",
+    "addcontact": "Lisää yhteystieto",
+    "call": "Soita",
+    "block_number": "Blokkaa numero",
+    "unblock_number": "Unblockaa numero",
+    "openchat": "Avaa keskustelu",
    "mutechat": "Hiljennä keskustelu",
    "unmutechat": "Poista hiljennys",
    "mutegroup": "Hiljennä ryhmä",
@@ -133,22 +137,22 @@ Locales["en"] = {
    "banuser": "Porttikielto käyttäjälle",
    "banaccount": "Porttikielto Tilille",
    "logout": "Kirjaudu ulos",
-   // Camera app
-   "uploadimage": 'Paina <span style="color: #FDBB13">julkaistaksesi</span> kuva!',
-   "uploadingimage": "Julkaistaan kuvaa..",
-   "failedupload": "Pieleen meni!",
-   "times": "x",
-   // Choose photos
-   "totalphotos": "{0} kuvaa",
-   // AirDrop
-   "shared_contact": '<span style="font-family:PoppinsRegular;color: white;">{0} [{1}]</span> haluaa jakaa yhteystiedon kanssasi',
-   "shared_image": '<span style="font-family:PoppinsRegular;color: white;">{0} [{1}]</span> haluaa jakaa kuvan kanssasi',
+    // Camera app
+    "uploadimage": 'Paina <span style="color: #FDBB13">julkaistaksesi</span> kuva!',
+    "uploadingimage": "Julkaistaan kuvaa..",
+    "failedupload": "Pieleen meni!",
+    "times": "x",
+    // Choose photos
+    "totalphotos": "{0} kuvaa",
+    // AirDrop
+    "shared_contact": '<span style="font-family:PoppinsRegular;color: white;">{0} [{1}]</span> haluaa jakaa yhteystiedon kanssasi',
+    "shared_image": '<span style="font-family:PoppinsRegular;color: white;">{0} [{1}]</span> haluaa jakaa kuvan kanssasi',
 
-   ///////////////////
-   // Notifications //
-   ///////////////////
-   "notifications": {
-       // Main
+    ///////////////////
+    // Notifications //
+    ///////////////////
+    "notifications": {
+        // Main
        "system": "SYSTEM",
        "error": "Virhe!",
        "wrongimageurl": "Virheellinen linkki!",
@@ -166,7 +170,7 @@ Locales["en"] = {
        "sharedimage": "Jaoit kuvan lähimmälle henkilölle!",
        "imageuploadtoooften": "Laitat kuvia liian vauhdilla!",
        "imageurlcopied": "Kuva kopioitu leikepöydälle!",
-       // Contacts app
+        // Contacts app
        "contactalreadyexists": "Sinulla on jo kontakti tällä numerolla!",
        "cannoteditcontact": "Et voi muokata tätä yhteystietoa!",
        "cannotcallcontact": "Et voi soittaa kyseiseen yhteystietoon!",
@@ -176,13 +180,14 @@ Locales["en"] = {
        "sharingcooldown": "Et voi jakaa yhteystietoja noin vauhdilla!",
        "sharedcontact": "Jaoit yhteystiedon lähimmälle henkilölle!",
        "maxcontactschosen": "Et voi valita enempää yhteystietoja!",
-       // Phone app
-       "usernotavailable": "Käyttäjä ei tavoiteltavissa!",
-       "cannotcallyourself": "Et voi soittaa itsellesi!",
-       "cannotcallnumber": "Et voi soittaa kyseiseen numeroon!",
-       "alreadyincall": "Olet jo puhelussa!",
-       // Mail app
-       "mailsettingssaved": "Asetukset tallennettu!",
+        // Phone app
+        "usernotavailable": "Käyttäjä ei tavoiteltavissa!",
+        "cannotcallyourself": "Et voi soittaa itsellesi!",
+        "cannotcallnumber": "Et voi soittaa kyseiseen numeroon!",
+        "alreadyincall": "Olet jo puhelussa!",
+        "missed_call": "Vastaamaton puhelu : <strong>{0}</strong>", // {0} is the caller number/name
+        // Mail app
+        "mailsettingssaved": "Asetukset tallennettu!",
        "mailnametooshort": "Nimi on liian lyhyt!",
        "mailaddresstooshort": "Sähköposti liian lyhyt!",
        "mailpasswordtooshort": "Salasana liian lyhyt!",
@@ -196,8 +201,8 @@ Locales["en"] = {
        "contentnotfilled": "Et voi lähettää tyhjää sähköpostia!",
        "airplanecantsendmail": "Et voi lähettää sähköpostia lentokonetilassa!",
        "maxrecipients": "Voit valita vain {0} vastaanottajaa!",
-       // Message app
-       "airplanecantsend": "Et voi lähettää viestejä lentokonetilassa!",
+        // Message app
+        "airplanecantsend": "Et voi lähettää viestejä lentokonetilassa!",
        "airplanecantcreategroup": "Et voi luoda ryhmiä lentokonetilassa!",
        "airplanecanteditgroup": "Et voi muokata ryhmiä lentokonetilassa!",
        "airplanecantlocation": "Et voi jakaa sijaintia lentokonetilassa!",
@@ -214,8 +219,9 @@ Locales["en"] = {
        "cantopengroupsoff": "Cannot open groups jos ryhmäviestit on pois päältä!",
        "addedtogroup": "Sinut lisättiin ryhmään : <strong>{0}</strong>!",
        "kickedperson": "<strong>{0}</strong> sai kenkään ryhmästä!", // {0} is the kicked person name/number
-       // Dark chat app
-       "airplanecantjoindarkgroups": "Et voi liittyä ryhmiin lentokonetilassa lentokonetilassa!",
+        "new_group_message": "<strong>{0}</strong> ryhmässä <strong>{1}</strong>:<br>{2}", // {0} is the sender name/number, {1} is the group name, {2} is the content
+        // Dark chat app
+        "airplanecantjoindarkgroups": "Et voi liittyä ryhmiin lentokonetilassa lentokonetilassa!",
        "airplanecantcreatedarkgroup": "Et voi luoda ryhmiä lentokonetilassa!",
        "airplanecanteditdarkgroup": "Et voi muokata ryhmiä lentokonetilassa!",
        "darknicknamenotfilled": "Sinun on täytettävä kutsumanimesi!",
@@ -226,7 +232,8 @@ Locales["en"] = {
        "darkinvitecodenotfilled": "Sinun on täytettävä kutsu-koodi!",
        "kickedmember": "<strong>{0}</strong> sai kenkään ryhmästä!", // {0} is the kicked member name
        "bannedmember": "<strong>{0}</strong> sai porttikiellon ryhmään!", // {0} is the kicked member name
-       // Music app
+        "new_dark_group_message": "<strong>{0}</strong> ryhmässä <strong>{1}</strong>:<br>{2}", // {0} is the sender name/number, {1} is the group name, {2} is the content
+        // Music app
        "failedtoplay": "Musiikin soitto epä-onnistui!",
        "noplaylists": "Sinulla ei ole yhtään soittolistaa!",
        // Notes app
@@ -250,6 +257,7 @@ Locales["en"] = {
        "resettimer": "Lähetit jo reset koodin tähän sähköpostiin! Odota {0} sekuntia ennen uuden lähetystä!", // {0} is the left seconds to wait.
        "passwordnotmatching": "Toistettu salasana ei täsmää uutta salasanaa!",
        "resetsuccess": "Onnistuneesti resetattu salasana.",
+       "twitteruserbanned": "{0} sai porttikiellon, {1} saakka", // {0} is the user nickname, {1} is the date
        // Bank app
        "ibancopied": "Sinun IBAN kopioitiin!",
        "idnotfilled": "Sinun on täytettävä henkilön ID!",
@@ -267,82 +275,82 @@ Locales["en"] = {
        "uploadinprogress": "Kuvan lataus menossa!"
    },
 
-   //////////
+    //////////
    // HTML //
    //////////
    "html": {
-       "just_now": "Juuri nyt!",
-       "swipe_to_unlock": "Vedä ylös avataksesi",
-       "showall": "Näytä kaikki",
-       "showless": "Näytä vähemmän",
-       "clearall": `Tyhjennä kaikki`,
-       // Outdated phone version
-       "outdated_title": "Uusi version <i><strong>highOS</strong></i> käyttöjärjestelmästä on saatavilla!",
-       "outdated_description": "Ota yhteyttä Saloseen sen päivitystä varten!",
-       // Twitter
-       "twitter_title": "Twitter",
-       "twitter_settings_title": "Asetukset",
-       "followed": "Seurattu",
-       "all": "Kaikki",
-       "change_nickname": "Käyttäjänimi",
-       "change_password": "Salasana",
-       "change_picture": "Profiilikuva",
-       "change_banner": "Profiilibanneri",
-       "cancel_settings": "Peruuta",
-       "save_settings": "Tallenna asetukset",
-       "twitter_post_title": "Julkaise",
-       "replying": "Vastataan : <strong>@{0}</strong>", // {0} is the tweet's author that a person is replying to.
-       "hiddentweet": "Piilotettu twiitti blokatulta käyttäjältä",
-       "hidetweet": "Piilota twiitti",
-       "post_title": "Otsikko",
-       "post_message": "Viesti",
-       "post_photo": "Kuva",
-       "post_submit": "Hyväksy",
-       "register_title": "Kirjautuminen",
-       "register_description": "Tervetuloa.<br>Luo tili jotta pääset twitteriin.",
-       "register_rules": `Hyväksyn kaikki <span style="font-family:PoppinsRegular;color: white;">käyttöehdot.</span>`,
-       "register_button": "Kirjaudu sisään",
-       "already_registered": `Onko sinulla jo tili? <span id="loginscreen">Kirjaudu sisään</span>`,
-       "login_title": "Kirjaudu sisään",
-       "login_description": "Tervetuloa.<br>Kirjaudu sisään jotta pääset twitteriin.",
-       "login_button": "Kirjaudu sisään",
-       "not_registered": `Sinulla ei ole tiliä? <span id="registerscreen">Luo tili</span>`,
-       "forgotpassword_title": "Nollaa salasana",
-       "forgotpassword_description": "Täytä tilin sähköposti, jos kyseinen on olemassa, lähetämme nollaus-koodin.",
-       "get_code_button": "Hanki koodi",
-       "reset_title": "Nollaa salasana",
-       "reset_description": "Täytä koodi jonka sait sähköpostiin!",
-       "reset_button": "Nollaa",
-       "back_forgot": "Peruuta",
-       "or_login": `Tai kirjaudu <span id="cancelreset">tästä!</span>`,
-       "forgot_password": "Unohditko salasanasi?",
-       "banned_title": "Porttikielloilla",
-       "banned_description": "Sait porttikiellon twitteriin : <strong>{0}</strong> asti.", // {0} is the date
-       "user_followers": "<strong>{0}</strong> Seuraajaa", // {0} is the amount of followers
-       "user_tweets": "<strong>{0}</strong> Twiittiä", // {0} is the amount of tweets
-       "user_membersince": "Jäsentä <strong>{0}</strong> lähtien", // {0} is the date
-       "twitter_follow": "Seuraa",
-       "twitter_unfollow": "Unfollow",
-       "twitter_notifications": "Ilmoitus-asetukset",
-       "twitter_tweetnotifications": "Twiitit",
-       "twitter_mentionnotifications": "Maininnat",
-       "twitter_othernotifications": "Muu",
-       "twitter_alltweetnotifications": "Kaikki",
-       "twitter_followedtweetnotifications": "Seurattu",
-       "twitter_notweetnotifications": "Tyhjä",
-       "twitter_mentionallnotifications": "Kaikki",
-       "twitter_mentionfollowednotifications": "Seurattu",
-       "twitter_mentionnonotifications": "Tyhjä",
-       "twitter_followernotifications": "Uudet seuraajat",
-       "recently_mentioned": "Äskettäin mainittu",
-       "no_mentions": "Ei mainintoja",
-       "clear_all_mentions": "Tyhjennä kaikki",
-       "bantwitter_button": "Porttikielto",
-       "bantwitteruser_title": "Anna porttikielto",
-       "bantwitteruser_banneduntil": 'Käyttäjä saa porttikiellon <span id="currentbanneduntil"></span> asti', // Do not change/remove the span id!
-       "bantwitteraccount_title": "Anna porttikielto",
-       "bantwitteraccount_banneduntil": 'Tili saa porttikiellon <span id="currentbanneduntil"></span> asti', // Do not change/remove the span id!
-       // Messages
+    "just_now": "Juuri nyt!",
+    "swipe_to_unlock": "Vedä ylös avataksesi",
+    "showall": "Näytä kaikki",
+    "showless": "Näytä vähemmän",
+    "clearall": `Tyhjennä kaikki`,
+    // Outdated phone version
+    "outdated_title": "Uusi version <i><strong>highOS</strong></i> käyttöjärjestelmästä on saatavilla!",
+    "outdated_description": "Ota yhteyttä Saloseen sen päivitystä varten!",
+    // Twitter
+    "twitter_title": "Twitter",
+    "twitter_settings_title": "Asetukset",
+    "followed": "Seurattu",
+    "all": "Kaikki",
+    "change_nickname": "Käyttäjänimi",
+    "change_password": "Salasana",
+    "change_picture": "Profiilikuva",
+    "change_banner": "Profiilibanneri",
+    "cancel_settings": "Peruuta",
+    "save_settings": "Tallenna asetukset",
+    "twitter_post_title": "Julkaise",
+    "replying": "Vastataan : <strong>@{0}</strong>", // {0} is the tweet's author that a person is replying to.
+    "hiddentweet": "Piilotettu twiitti blokatulta käyttäjältä",
+    "hidetweet": "Piilota twiitti",
+    "post_title": "Otsikko",
+    "post_message": "Viesti",
+    "post_photo": "Kuva",
+    "post_submit": "Hyväksy",
+    "register_title": "Kirjautuminen",
+    "register_description": "Tervetuloa.<br>Luo tili jotta pääset twitteriin.",
+    "register_rules": `Hyväksyn kaikki <span style="font-family:PoppinsRegular;color: white;">käyttöehdot.</span>`,
+    "register_button": "Kirjaudu sisään",
+    "already_registered": `Onko sinulla jo tili? <span id="loginscreen">Kirjaudu sisään</span>`,
+    "login_title": "Kirjaudu sisään",
+    "login_description": "Tervetuloa.<br>Kirjaudu sisään jotta pääset twitteriin.",
+    "login_button": "Kirjaudu sisään",
+    "not_registered": `Sinulla ei ole tiliä? <span id="registerscreen">Luo tili</span>`,
+    "forgotpassword_title": "Nollaa salasana",
+    "forgotpassword_description": "Täytä tilin sähköposti, jos kyseinen on olemassa, lähetämme nollaus-koodin.",
+    "get_code_button": "Hanki koodi",
+    "reset_title": "Nollaa salasana",
+    "reset_description": "Täytä koodi jonka sait sähköpostiin!",
+    "reset_button": "Nollaa",
+    "back_forgot": "Peruuta",
+    "or_login": `Tai kirjaudu <span id="cancelreset">tästä!</span>`,
+    "forgot_password": "Unohditko salasanasi?",
+    "banned_title": "Porttikielloilla",
+    "banned_description": "Sait porttikiellon twitteriin : <strong>{0}</strong> asti.", // {0} is the date
+    "user_followers": "<strong>{0}</strong> Seuraajaa", // {0} is the amount of followers
+    "user_tweets": "<strong>{0}</strong> Twiittiä", // {0} is the amount of tweets
+    "user_membersince": "Jäsentä <strong>{0}</strong> lähtien", // {0} is the date
+    "twitter_follow": "Seuraa",
+    "twitter_unfollow": "Unfollow",
+    "twitter_notifications": "Ilmoitus-asetukset",
+    "twitter_tweetnotifications": "Twiitit",
+    "twitter_mentionnotifications": "Maininnat",
+    "twitter_othernotifications": "Muu",
+    "twitter_alltweetnotifications": "Kaikki",
+    "twitter_followedtweetnotifications": "Seurattu",
+    "twitter_notweetnotifications": "Tyhjä",
+    "twitter_mentionallnotifications": "Kaikki",
+    "twitter_mentionfollowednotifications": "Seurattu",
+    "twitter_mentionnonotifications": "Tyhjä",
+    "twitter_followernotifications": "Uudet seuraajat",
+    "recently_mentioned": "Äskettäin mainittu",
+    "no_mentions": "Ei mainintoja",
+    "clear_all_mentions": "Tyhjennä kaikki",
+    "bantwitter_button": "Porttikielto",
+    "bantwitteruser_title": "Anna porttikielto",
+    "bantwitteruser_banneduntil": 'Käyttäjä saa porttikiellon <span id="currentbanneduntil"></span> asti', // Do not change/remove the span id!
+    "bantwitteraccount_title": "Anna porttikielto",
+    "bantwitteraccount_banneduntil": 'Tili saa porttikiellon <span id="currentbanneduntil"></span> asti', // Do not change/remove the span id!
+        // Messages
        "messages_title": "Viestit",
        "new_message_title": "Uusi viesti",
        "new_message_name": "Nimi ja Sukunimi",
@@ -389,12 +397,12 @@ Locales["en"] = {
        "playlist_name": "Nimi",
        "playlist_photo": "Pikkukuva",
        "playlist_save": "Tallenna",
-       // App store
+        // App store
        "featured_app_title": "Suositut",
        "featured_app_description": "#1 Suosituin!",
        "no_results": "Ei tuloksia",
        // Ads
-       "ads_title": `<span style="color: #edce60">PP</span>mainokset`,
+       "ads_title": `<span style="color: #edce60">AD</span>tieto`,
        "ads_description": "Mainos-sovellus",
        "new_ad_button": "Julkaise",
        "new_ad_back": "Peruuta",
@@ -406,7 +414,7 @@ Locales["en"] = {
        "new_ad_post": "Julkaise",
        "ad_calls": "Puhelut",
        "ad_messages": "Viestit",
-       // Contacts
+         // Contacts
        "contacts_title": "Yhteystiedot",
        "select_contacts_title": "Valitse yhteystietoja",
        "contacts_foundresults": "Parhaiten täsmää : ",
@@ -427,34 +435,34 @@ Locales["en"] = {
        "contact_new_tag": "Maininnat",
        "contact_new_create": "Luo yhteystieto",
        "contact_new_cancel": "Peruuta",
-       // Mail
-       "mail_welcome_title": "Tervetuloa!",
-       "mail_welcome_description": "Kirjaudu sisään tai luo tili lähettääksesi sähköposteja!",
-       "mail_fullname": "Koko nimi",
-       "mail_address": "Sähköposti",
-       "mail_password": "Salasana",
-       "mail_register": "Luo tili",
-       "or": "TAI",
-       "mail_login": "Kirjaudu sisään",
-       "disable_notifications": "Sammuta ilmoitukset",
-       "enable_notifications": "Käynnistä ilmoitukset",
-       "mail_editaccount_name": "Nimi",
-       "mail_editaccount_photo": "Kuva",
-       "mail_editaccount_password": "Salasana",
-       "mail_editaccount_save": "Tallenna",
-       "edit_account": "Muokkaa tiliä",
-       "inbox": "Saapuneet",
-       "trash": "Roskakori",
-       "sent": "Lähetetty",
-       "mail_newmail_title": "Uusi sähköposti",
-       "mail_newmail_description": "Lähetä sähköpostia ihmisille ympäri maailmaa!",
-       "mail_newmail_recipients": "Vastaanottajat",
-       "mail_newmail_subject": "Aihe",
-       "mail_newmail_text": "Teksti",
-       "mail_replymail_title": `Vastataan henkilölle <span style="font-family: PoppinsBolder;">{0}</span>`,
-       "reply_all": "Vastaa kaikille",
-       // Bank
-       "bank_title": "PP Bank",
+        // Mail
+        "mail_welcome_title": "Tervetuloa!",
+        "mail_welcome_description": "Kirjaudu sisään tai luo tili lähettääksesi sähköposteja!",
+        "mail_fullname": "Koko nimi",
+        "mail_address": "Sähköposti",
+        "mail_password": "Salasana",
+        "mail_register": "Luo tili",
+        "or": "TAI",
+        "mail_login": "Kirjaudu sisään",
+        "disable_notifications": "Sammuta ilmoitukset",
+        "enable_notifications": "Käynnistä ilmoitukset",
+        "mail_editaccount_name": "Nimi",
+        "mail_editaccount_photo": "Kuva",
+        "mail_editaccount_password": "Salasana",
+        "mail_editaccount_save": "Tallenna",
+        "edit_account": "Muokkaa tiliä",
+        "inbox": "Saapuneet",
+        "trash": "Roskakori",
+        "sent": "Lähetetty",
+        "mail_newmail_title": "Uusi sähköposti",
+        "mail_newmail_description": "Lähetä sähköpostia ihmisille ympäri maailmaa!",
+        "mail_newmail_recipients": "Vastaanottajat",
+        "mail_newmail_subject": "Aihe",
+        "mail_newmail_text": "Teksti",
+        "mail_replymail_title": `Vastataan henkilölle <span style="font-family: PoppinsBolder;">{0}</span>`,
+        "reply_all": "Vastaa kaikille",
+        // Bank
+       "bank_title": "Pankki",
        "your_cards": "Korttisi",
        "choose_card": "Valitse",
        "balance": "Saldo",
@@ -476,7 +484,7 @@ Locales["en"] = {
        "request_cancel": "Peruuta",
        "pay_all_bills": "Maksa kaikki laskut",
        "invoices_back": "Peruuta",
-       // Dark Chats
+        // Dark Chats
        "darkchat_title": "TOR-Verkko",
        "darkchat_firstjoin": "Ensimmäinen kertasi sovelluksessa, luo käyttäjänimi!",
        "join_chat": "Liity keskuteluun",
@@ -500,7 +508,7 @@ Locales["en"] = {
        "darkchat_joingroup_title": "Liity ryhmään",
        "darkchat_joingroup_invitecode": "Kutsukoodi",
        "darkchat_joingroup_join": "Liity",
-       // Notes
+        // Notes
        "notes_title": "Muistiinpanot",
        "reminders": "MUISTUTUKSET",
        "notes": "MUISTIINPANOT",
@@ -535,7 +543,7 @@ Locales["en"] = {
        "missed_calls": "Vastaamattomat",
        "dial_title": "Näppäile numero",
        "clear_all_calls": "Tyhjennä",
-       // Settings
+        // Settings
        "settings_title": "Asetukset",
        "backgrounds_title": "Taustakuvat",
        "ringtones_title": "Soittoäänet",
@@ -567,7 +575,7 @@ Locales["en"] = {
        "retake_photo": "Ota uusiksi",
        "use_photo": "Käytä kuvaa",
        "cancel": "Peruuta",
-       // Image selection
+        // Image selection
        "select": "Valitse",
        // Image preview
        "save_to_gallery": "Tallenna galleriaan",
@@ -580,55 +588,55 @@ Locales["en"] = {
        "log_out": "Kirjaudu ulos",
        "view_profile": "Näytä profiili",
 
-       //////////////////
+        //////////////////
        // Placeholders //
        //////////////////
        "placeholders": {
-           "nickname": "Käyttäjänimi",
-           "email": "Sähköposti",
-           "password": "Salasana",
-           "code": "Koodi",
-           "new_password": "Uusi salasana",
-           "repeat_password": "Toista salasana",
-           "image_url": "www.photo.com/photo.png",
-           "tweet_title": "...",
-           "tweet_content": "...",
-           "bantwitter_reason": "Syy",
-           "reminder_title": "Otsikko",
-           "reminder_description": "Kuvaus",
-           "mail_fullname": "Nimi Sukunimi",
-           "mail_address": "...",
-           "mail_password": "...",
-           "mail_recipients": "Sähköpostiosoite",
-           "mail_subject": "...",
-           "mail_content": "...",
-           "your_reply": "Vastauksesi",
-           "ad_topic": "Täytä otsikko",
-           "ad_content": "Täytä sisältö",
-           "search_apps": "Etsi sovelluksia",
-           "search_notes": "Etsi muistiinpanoja",
-           "search_music": "Etsi musiikkia",
-           "search_ads": "Etsi mainoksia",
-           "search_mail": "Etsi mainosta",
-           "search_contacts": "Etsi yhteystietoja",
-           "search_chats": "Etsi keskuteluja",
-           "playlist_name": "...",
-           "group_name": "...",
-           "chat_message": "Viestisi",
-           "enter_nickname": "Täytä käyttäjänimesi",
-           "darkchat_group_name": "...",
-           "darkchat_group_members": "0",
-           "darkchat_group_invitecode": "!Abc123$",
-           "darkchat_nickname": "...",
-           "darkchat_invitecode": "...",
-           "mail_account_name": "...",
-           "number_example": "+358 00 000 0000",
-           "name_surname": "...",
-           "tag": "...",
-           "player_id": "123",
-           "amount": "0",
-           "reason": "...",
-           "message_content": "..."
-       }
-   }
+        "nickname": "Käyttäjänimi",
+        "email": "Sähköposti",
+        "password": "Salasana",
+        "code": "Koodi",
+        "new_password": "Uusi salasana",
+        "repeat_password": "Toista salasana",
+        "image_url": "www.photo.com/photo.png",
+        "tweet_title": "...",
+        "tweet_content": "...",
+        "bantwitter_reason": "Syy",
+        "reminder_title": "Otsikko",
+        "reminder_description": "Kuvaus",
+        "mail_fullname": "Nimi Sukunimi",
+        "mail_address": "...",
+        "mail_password": "...",
+        "mail_recipients": "Sähköpostiosoite",
+        "mail_subject": "...",
+        "mail_content": "...",
+        "your_reply": "Vastauksesi",
+        "ad_topic": "Täytä otsikko",
+        "ad_content": "Täytä sisältö",
+        "search_apps": "Etsi sovelluksia",
+        "search_notes": "Etsi muistiinpanoja",
+        "search_music": "Etsi musiikkia",
+        "search_ads": "Etsi mainoksia",
+        "search_mail": "Etsi mainosta",
+        "search_contacts": "Etsi yhteystietoja",
+        "search_chats": "Etsi keskuteluja",
+        "playlist_name": "...",
+        "group_name": "...",
+        "chat_message": "Viestisi",
+        "enter_nickname": "Täytä käyttäjänimesi",
+        "darkchat_group_name": "...",
+        "darkchat_group_members": "0",
+        "darkchat_group_invitecode": "!Abc123$",
+        "darkchat_nickname": "...",
+        "darkchat_invitecode": "...",
+        "mail_account_name": "...",
+        "number_example": "+358 00 000 0000",
+        "name_surname": "...",
+        "tag": "...",
+        "player_id": "123",
+        "amount": "0",
+        "reason": "...",
+        "message_content": "..."
+        }
+    }
 }
